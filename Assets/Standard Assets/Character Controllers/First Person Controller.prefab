@@ -231,13 +231,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 1
-  sensitivityX: 15
-  sensitivityY: 0
-  minimumX: -360
-  maximumX: 360
-  minimumY: 0
-  maximumY: 0
+  mouseSensitivity: 100
+  clampAngle: 80
 --- !u!1002 &11400001
 EditorExtensionImpl:
   serializedVersion: 6
@@ -328,13 +323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 2
-  sensitivityX: 10
-  sensitivityY: 10
-  minimumX: 0
-  maximumX: 360
-  minimumY: -60
-  maximumY: 60
+  mouseSensitivity: 100
+  clampAngle: 80
 --- !u!1002 &11400007
 EditorExtensionImpl:
   serializedVersion: 6
